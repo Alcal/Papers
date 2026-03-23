@@ -1,0 +1,2 @@
+# Resolve IEEEtran.cls from repo template/ when building from deep-learning/
+$ENV{'TEXINPUTS'} = '.:../template//:' . ($ENV{'TEXINPUTS'} // '');

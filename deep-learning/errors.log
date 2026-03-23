@@ -1,0 +1,9 @@
+Rc files read:
+  /etc/LatexMk
+  latexmkrc
+Latexmk: This is Latexmk, John Collins, 31 Jan. 2024. Version 4.83.
+Latexmk: Nothing to do for 'main.tex'.
+Latexmk: All targets (main.pdf) are up-to-date
+Collected error summary (may duplicate other messages):
+  pdflatex: gave an error in previous invocation of latexmk.
+

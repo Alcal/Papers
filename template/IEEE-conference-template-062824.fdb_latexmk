@@ -1,0 +1,18 @@
+# Fdb version 4
+["pdflatex"] 1774138588.00683 "/home/alex/Documents/School/Papers/template/IEEE-conference-template-062824.tex" "IEEE-conference-template-062824.pdf" "IEEE-conference-template-062824" 1774138588.41125 2
+  "/etc/texmf/web2c/texmf.cnf" 1774133492.98373 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/alex/Documents/School/Papers/template/IEEE-conference-template-062824.tex" 1774130668.02723 16374 6d365c6ccd0bfca54a887effdb463a75 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
+  "/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd" 1137110629 961 15056f4a61917ceed3a44e4ac11fcc52 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1774133499 6800797 809256a4070170e8c753b86d8b1b77ca ""
+  "IEEE-conference-template-062824.aux" 1774138588.00625 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "IEEE-conference-template-062824.tex" 1774130668.02723 16374 6d365c6ccd0bfca54a887effdb463a75 ""
+  "IEEEtran.cls" 1774138587.3789 288310 e065a84e4b4a2c0d201d1e3fc288d3fc ""
+  "cite.sty" 0 -1 0 ""
+  (generated)
+  "IEEE-conference-template-062824.aux"
+  "IEEE-conference-template-062824.log"
+  "IEEE-conference-template-062824.pdf"
+  (rewritten before read)
