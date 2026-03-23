@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1774222303.72731 "/home/alex/Documents/School/Papers/deep-learning/main.tex" "main.pdf" "main" 1774222304.11757 0
+["pdflatex"] 1774225083.59524 "/home/alex/Documents/School/Papers/deep-learning/main.tex" "main.pdf" "main" 1774225083.986 0
   "../template/IEEEtran.cls" 1774138631.8558 288318 5e62d434f312f043d806b8e80fe6ceb6 ""
   "/etc/texmf/web2c/texmf.cnf" 1774133492.98373 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/alex/Documents/School/Papers/deep-learning/main.tex" 1774222303.16246 12183 9bcbb8471f39d02718e22ac839011095 ""
+  "/home/alex/Documents/School/Papers/deep-learning/main.tex" 1774225083.27103 12167 c79b850ddb4de02eb3b635ae6aca59f9 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1246382020 928 2dc8d444221b7a635bb58038579b861a ""
@@ -87,8 +87,8 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1774133499 6800797 809256a4070170e8c753b86d8b1b77ca ""
   "figures/depth_scaling_limits_2.png" 1774219509.98305 527963 8fb2e6c45de32bc09c2d1bab057a9212 ""
   "figures/hivemind.png" 1774220564.52325 458886 e6a3d12a801dee5eacc2d8cdef3f300e ""
-  "main.aux" 1774222304.07747 3142 a19b59b6cf55f2c28f69de7751b5a9c9 "pdflatex"
-  "main.tex" 1774222303.16246 12183 9bcbb8471f39d02718e22ac839011095 ""
+  "main.aux" 1774225083.94628 3142 a19b59b6cf55f2c28f69de7751b5a9c9 "pdflatex"
+  "main.tex" 1774225083.27103 12167 c79b850ddb4de02eb3b635ae6aca59f9 ""
   (generated)
   "main.aux"
   "main.log"
