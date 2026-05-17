@@ -1,0 +1,2 @@
+# Resolve IEEEtran.cls from repo template/ when building from aofl-dt/
+$ENV{'TEXINPUTS'} = '.:../template//:' . ($ENV{'TEXINPUTS'} // '');

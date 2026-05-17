@@ -1,0 +1,109 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\IfFileExists{ptmr7t.tfm}{}{%
+  \typeout{** Times (ptmr7t.tfm) not found: loading Latin Modern. Install texlive-fonts-recommended for IEEE Times.}%
+  \usepackage{lmodern}%
+}
+
+\usepackage[T1]{fontenc}
+% Para hyphenation en español con babel, instale texlive-lang-spanish y descomente:
+% \usepackage[spanish]{babel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{url}
+
+\newcommand{\PaperTitle}{Transformación Digital en Age Of Learning: Riesgos y Oportunidades en Tecnologías para la Educación}
+
+\begin{document}
+\renewcommand{\abstractname}{Resumen}
+\renewcommand{\IEEEkeywordsname}{Términos clave}
+\renewcommand{\refname}{Referencias}
+
+\title{\PaperTitle\\
+}
+
+\author{\IEEEauthorblockN{Alejandro Castro López}
+\IEEEauthorblockA{\textit{MNA} \\
+\textit{ITESM}\\
+Matrícula A00806170\\
+a00806170@tec.mx}
+}
+
+\maketitle
+
+\begin{abstract}
+\textit{En este artículo se analizan los riesgos y oportunidades que presenta la transformación digital en Age of Learning, considerando el contexto específico del advenimiento de la Inteligencia Artificial (IA) y sus tecnologías derivadas como los Modelos Agenticos de IA.}
+\end{abstract}
+
+\begin{IEEEkeywords}
+Transformación digital, Age of Learning, tecnología educativa, EdTech, riesgos, oportunidades.
+\end{IEEEkeywords}
+
+\section{Introducción}
+EdTech es un aforismo que describe el desarrollo de tecnologías con el objetivo de inovar en las metodologías de enseñanza y aprendizaje. Age of Learning (AofL) es una empresa que se dedica a desarrollar dicha EdTech, como aplicaciones móviles y  web, con el objetivo de poner la educación al alcance de niños y adolescentes. \cite{ageOfLearningLinkedIn}
+
+Siendo sus principales productos algún tipo de software, se asumiría que AofL estaría en una posición ventajosa con respecto a otras empresas para implementar la transformación digital en sus procesos; sin embargo, este artículo busca analizar los riesgos y oportunidades que presenta la transformación digital en AofL considerando el contexto específico del advenimiento de la Inteligencia Artificial (IA). Los análisis sobre transformación digital suelen articular beneficios, metas y modos de toma de decisiones apoyados en datos \cite{mindmap2021dt}.
+
+\section{Desarrollo}
+El rubro de Age of Learning se enfoca en el desarrollo de aplicaciones móviles y web para la educación, siendo su producto principal la aplicación "ABCmouse" \cite{ageOfLearningLinkedIn}, la cual es una aplicación de lectura y aprendizaje para niños de 2 a 6 años. Otros productos son Adventure Academy y My Reading Academy, que posicionan a Age of Learning como una empresa líder en el mercado de la educación digital.
+
+Actualmente, al igual que muchas empresas de productos de sofware, AofL se encuentra en medio de la oleada de adopción de tecnologías basadas en IA, que ha arrancado una carrera de armas entre las grandes empresas de tecnología para la educación para no quedarse atrás en obtener los beneficios de la transformación digital enfocada en IA.
+
+Si bien la IA presenta una atractiva oportunidad para impulsar la transformación digital en AofL, también presenta riesgos que deben ser considerados para no agravar problemas existentes. \cite{hoe2022digital}
+
+\section{Beneficios}
+Un enorme punto de arranque que tienen las empresas de software para la transformación digital es que muchos de sus procesos cruciales son inherentemente nativos al entorno digital. Por ejemplo, una práctica estándar de las aplicaciones para el consumidor es la recopilación de datos de uso para mejorar la experiencia del usuario, sentando las bases para alimentar modelos de IA con las enormes muestras de datos que se demandan para su entrenamiento. \cite{hoe2022digital}
+
+La implementación de modelos de IA y Aprendizaje de Máquina en los procesos de AofL desde la perspectiva de conjuntos grandes de datos, ofrece beneficios como:
+\begin{itemize}
+    \item Experiencia del usuario: Mejorar la experiencia del usuario al proporcionar recomendaciones personalizadas y mejorar la precisión de las respuestas.
+    \item Estabilidad: Mejorar la estabilidad de los sistemas al detectar correlaciones en errores encontrados por usuarios.
+    \item Seguridad: Reforzar la seguridad al detectar anomalías y comportamientos inusuales.
+\end{itemize}
+Por otro lado, el advenimiento de Modelos Agenticos de IA, como los Modelos de IA basados en Agentes (MIAAs) \cite{cowell2025agentic}, ofrece varias oportunidades para la empresa para mejorar la eficiencia del desarrollo mismo del software:
+\begin{itemize}
+    \item Eficiencia: Mejorar la eficiencia de los procesos al automatizar tareas y reducir el tiempo de respuesta.
+    \item Costos: Reducir los costos al automatizar tareas y reducir el tiempo de respuesta.
+    \item Calidad: Automización de pruebas e identificación de errores en el software.
+    \item Inovación: Prototipado rápido de nuevas funcionalidades.
+\end{itemize}
+Para explotar los beneficios debidamente, es necesario también orientar a los empleados de AofL para adopar prácticas y valores que permitan aprovechar al máximo las nuevas tecnologías--la minucia del código es ahora menos importante que entender arquitectura general de los sistemas.
+\section{Riesgos}
+La inherente aceleración de procesos que representa la adopción de tecnologías basadas en IA, puede ser un riesgo para la empresa si no se toman medidas para mitigar los riesgos que presenta.
+\begin{itemize}
+    \item Sesgos en los datos: Los modelos de IA son tan buenos como los datos que se les proporcionan. Si los datos están sesgados, los modelos de IA también lo estarán, lo cual puede incrementar la desigualdad social.
+    \item Falla de contención: Existen ya casos documentados de modelos de IA que rebazan su jurisdicción al modificar sistemas de formas no especificadas.
+    \item Deriva de directivas: La IA puede derivar en directivas que no sean las deseadas, lo cual puede llevar a la empresa a violar leyes y regulaciones.
+\end{itemize}
+
+Una incógnita que es difícil de cuantificar el impacto que tiene la IA en la forma que las personas del futuro van a abordar el aprendizaje y la enseñanza. Kulkarni \emph{et al.} \cite{kulkarni2025edtech} plantean que la transformación digital en la educación puede tener un efecto moderador en la relación entre el soporte del docente y la participación del estudiante en el proceso de aprendizaje. Sin embargo, también estipulan que hace falta más investigación para cuantificar el impacto de la IA en la educación. Literatura adicional en bases académicas (p.\,ej., Gale IFME) subraya la importancia de contrastar afirmaciones con evidencia publicada \cite{galeA868660101}. Este punto es doblemente importante para AofL, puesto que deben adaptar sus productos para tendencias en el aprendizaje que aun no han sido debidamente exploradas.
+
+\section{Conclusión}
+Age of Learning está en una posición ventajosa para implementar la transformación digital en sus procesos, ya que muchos de sus procesos cruciales son inherentemente nativos al entorno digital. Sin embargo, es necesario ser cuidadoso con los riesgos que presenta la adopción de tecnologías basadas en IA, y orientar a los empleados para adoptar prácticas y valores que permitan aprovechar al máximo las nuevas tecnologías.
+
+Un reto particular dado el grupo demográfico meta de los productos de AofL es que la mayoría de sus usuarios son niños y adolescentes, por lo que AofL debe estar constantemente a la vanguardia de cómo los usuarios jóvenes crean nuevos paradigmas en el aprendizaje y la enseñanza.
+\begin{thebibliography}{00}
+
+\bibitem{kulkarni2025edtech}
+G. Kulkarni \emph{et al.}, ``Enhancing Student Engagement through Digital Transformation in EdTech: The Moderating Role of Teacher Support,'' \emph{J. Marketing Social Res.}, vol.~2, no.~2, Mar.-Apr. 2025. [En línea]. Disponible: \url{https://jmsr-online.com/}
+
+\bibitem{hoe2022digital}
+S. L. Hoe, \emph{Digital Transformation; Strategy, Execution, and Technology}, 2022.
+
+\bibitem{mindmap2021dt}
+``Digital Transformation Module 1 Mind Map Poster,'' vers.~2.1, póster (material de apoyo), nov. 2021.
+
+\bibitem{ageOfLearningLinkedIn}
+Age of Learning, información de la empresa (LinkedIn). [En línea]. Disponible: \url{https://www.linkedin.com/company/age-of-learning/about/}
+
+\bibitem{galeA868660101}
+Artículo en base de datos Gale (colección IFME), documento \texttt{GALE|A868660101}. Completar autor y título exactos según el registro en Gale. [En línea]. Disponible: \url{https://go.gale.com/ps/i.do?id=GALE%7CA868660101&v=2.1&it=r&sid=ebsco&u=itesmgic&p=IFME&aty=shibboleth}
+
+\bibitem{cowell2025agentic}
+N. Cowell, ``Agentic AI: The technology catalyst for the next generation of Digital Transformation (DX2.0),'' \emph{Fujitsu Global Blog (Corporate)}, 14 feb. 2025. [En línea]. Disponible: \url{https://corporate-blog.global.fujitsu.com/fgb/2025-02-14/02/}
+
+\end{thebibliography}
+
+\end{document}
