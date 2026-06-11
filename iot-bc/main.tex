@@ -1,0 +1,128 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\IfFileExists{ptmr7t.tfm}{}{%
+  \typeout{** Times (ptmr7t.tfm) not found: loading Latin Modern. Install texlive-fonts-recommended for IEEE Times.}%
+  \usepackage{lmodern}%
+}
+
+\usepackage[T1]{fontenc}
+% Para hyphenation en español con babel, instale texlive-lang-spanish y descomente:
+% \usepackage[spanish]{babel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{url}
+
+\newcommand{\PaperTitle}{Caso de Estudio de Age Of Learning: Beneficios Potenciales del IoT y Blockchain en EdTech}
+
+\begin{document}
+\renewcommand{\abstractname}{Resumen}
+\renewcommand{\IEEEkeywordsname}{Términos clave}
+\renewcommand{\refname}{Referencias}
+
+\title{\PaperTitle\\
+}
+
+\author{\IEEEauthorblockN{Alejandro Castro López}
+\IEEEauthorblockA{\textit{MNA} \\
+\textit{ITESM}\\
+Matrícula A00806170\\
+a00806170@tec.mx}
+}
+
+\maketitle
+
+\begin{abstract}
+Este artículo presenta un caso de estudio sobre Age of Learning como empresa de tecnología educativa y bosqueja de forma exploratoria cómo el Internet de las Cosas y la cadena de bloques podrían aportar valor en distintas áreas de su negocio. Se delimitan posibles escenarios de implementación, beneficios esperados y riesgos asociados, con apoyo en literatura sobre IoT, blockchain y transformación digital en EdTech, sin pretender un despliegue técnico exhaustivo.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Age of Learning, EdTech, Internet de las Cosas, blockchain, caso de estudio, transformación digital.
+\end{IEEEkeywords}
+
+\section{Introducción}
+Age of Learning es una empresa de tecnología dedicada al desarrollo de software educativo para niños de 2 a 6 años. Actualmente, su producto principal - ABCmouse - es una aplicación móvil y web que permite a los niños aprender a leer y escribir y atiende a un público de más de 10 millones de usuarios en todo el mundo. \cite{ageOfLearningWeb}.
+Dada la presencia ubicua del internet y siendo este el principal vector de distribución de productos como ABCmouse, Age of Learning podría beneficiarse de la integración de tecnologías como el Internet de las Cosas (IoT) y la cadena de bloques (Blockchain) para explorar nuevas estrategias para alcanzar su misión de poner la educación al alcance de todos. \cite{sanchezRamoscelli2018iot}.
+Este artículo busca explorar de forma exploratoria cómo el IoT y Blockchain podrían aportar valor en distintas áreas de su negocio, sin pretender un despliegue técnico exhaustivo.
+
+\section{Desarrollo}
+\subsection{Panorama de Age of Learning}
+Age of Learning fue fundada en 2011, y se ha convertido en una de las empresas líderes en el mercado de la educación digital para niños. Aunque ABCMouse es su producto principal, Age of Learning ofrece una variedad de productos para niños de diferentes edades y niveles de habilidad: 
+\begin{itemize}
+    \item Adventure Academy: juego en línea enfocada a historia y geografía para niños de 3 a 8 años.
+    \item My Math Academy: plataforma web de uso en escuelas para enseñar matemáticas a niños de 3 a 8 años.
+    \item My Reading Academy: aplicación complementaria a My Math Academy para enseñar lectura a niños de 3 a 8 años.
+\end{itemize}
+Cada solución se basa en la recopilación y análisis de datos de uso para adaptar el aprendizaje y medir el progreso.
+Ha forjado alianzas estratégicas con sistemas escolares, bibliotecas públicas y organizaciones internacionales para ampliar su alcance.\cite{ageOfLearningWeb}.
+Esta infraestructura tecnológica aunada a su presencia en el mercado de EdTech posicionan a Age of Learning de manera ventajosa para explorar la integración de IoT y Blockchain en su negocio. Tales ventajas son el acceso a métricas de uso y un entendimiento organizacional producto de la experiencia de su equipo.\cite{hoe2022digital}.
+
+\subsection{IoT en el contexto EdTech de AofL}
+IoT es la integración de sensores, actuadores y redes de comunicación para permitir la recopilación y análisis de datos de manera automatizada y a su vez detonar acciones con repercusiones en entornos físicos. Esta tecnología es aplicable a (entre otros) entornos de aprendizaje, sean el hogar o el aula - los más comunes en el contexto de Age of Learning. \cite{itainnova2020iotBlockchain}.
+
+Una de las encrucijadas en las que se encuentra la educación es el hecho de que la interacción con el entorno físico es fundamental para el aprendizaje. Dado que hoy en día un sistema educativo separado del contexto digital es poco viable, Age of Learning podría beneficiarse de la integración de IoT en sus productos para mejorar la experiencia del usuario con dispositivos usables (wearables) o el enriquecimiento de entornos existentes con integraciones digitales como parques zoológicos o museos. \cite{sanchezRamoscelli2018iot}.
+
+\subsection{Blockchain en el contexto EdTech de AofL}
+Blockchain es una tecnología de registro distribuido y descentralizado que permite la creación de un libro distribuido, inmutable y transparente. Esta tecnología es aplicable a (entre otros) la trazabilidad de licencias de contenido, el registro de consentimientos parentales, la cadena de suministro de merchandising o materiales físicos vinculados a la marca, y la prueba de procedencia en alianzas (p.\,ej., contenido con socios como museos o ligas deportivas) \cite{teloexplico2021blockchain,itainnova2020iotBlockchain}.
+Dada la delicada naturaleza de los datos de los menores de edad (el principal usuario de EdTech), Age of Learning podría beneficiarse de la integración de Blockchain en sus productos para garantizar la confidencialidad y la integridad de los datos. \cite{dwEspanol2022blockchainLatam}.
+En un escenario hipotético donde se implementara IoT en el proceso de impartición y validación de aprendizaje, Blockchain podría ser utilizada para garantizar la autenticidad y la integridad de los datos recopilados por los sensores.
+Otra aplicación potencial es el de los llamados contratos inteligentes (smart contracts) para la automatización de procesos como la emisión de certificados de progreso o la verificación de la autorización de uso de datos por parte los tutores legales de los usuarios. \cite{itainnova2020iotBlockchain}.
+
+\subsection{Áreas de negocio donde integrar ambas tecnologías}
+\begin{itemize}
+    \item \textbf{Producto y experiencia del niño:} rutas de aprendizaje adaptativas con señales de contexto (tiempo de uso, entorno) sujetas a políticas de privacidad infantil. Similar a productos existentes de Age Of Learning como My Math Academy o My Reading Academy; que ya tienen presencia en el sistema educativo.
+    \item \textbf{Segmento escolar (B2B):} evidencia de implementación, cumplimiento y reportes a distritos o bibliotecas públicas.
+    \item \textbf{Operaciones y cadena de valor:} inventario de kits físicos, juguetes o hardware educativo\cite{dwEspanol2022blockchainLatam}.
+    \item \textbf{Investigación y reputación:} respaldo verificable de estudios de eficacia citados comercialmente. Age of Learning cuenta con un departamento de investigación pedagógica que podría beneficiarse de la Blockchain para llevar a cabo estudios más robustos y confiables. \cite{kulkarni2025edtech}.
+\end{itemize}
+
+\section{Beneficios}
+\begin{itemize}
+    \item \textbf{Confianza y transparencia:} registros auditables para tutores, docentes y cuerpos reguladores del sistema educativo.
+    \item \textbf{Personalización responsable:} datos del contexto físico y métricas fisiológicas para rastrear el involucramiento del usuario en el proceso de aprendizaje \cite{kulkarni2025edtech}.
+    \item \textbf{Innovación de producto:} experiencias híbridas físico-digitales (kits, classrooms) medianto equipo didáctico inteligente (gran diferenciador en un mercado saturado de apps) \cite{hoe2022digital}.
+\end{itemize}
+
+\section{Riesgos}
+\begin{itemize}
+    \item \textbf{Privacidad infantil y soberanía de datos:} mayor superficie de exposición al combinar identidad, sensores y ledgers; se necesita establecer políticas claras y control parental a conciencia.
+    \item \textbf{Coste, complejidad y madurez tecnológica:} absorber riesgos de pérdidas materiales ante la amplitud del despliegue de nodos físicos \cite{hoe2022digital}.
+    \item \textbf{Escalabilidad y consumo energético:} el uso de Blockchain incrementa la demanda energética a medida que se agregan más nodos al sistema y el esfuerzo para llegar a un consenso en la red implica mayor computación.
+    \item \textbf{Regulación y gobernanza:} el derecho al olvido es un tema delicado en el contexto de la educación, y la regulación debe ser cuidadosa para no afectar la transparencia y la confianza en el sistema. Esto entra en conflicto directo con la inmutabilidad de la Blockchain.
+    \item \textbf{Brecha digital y equidad:} dependencia de hardware IoT que podría excluir a segmentos de la base de usuarios de AofL \cite{kulkarni2025edtech}.
+\end{itemize}
+
+\section{Conclusión}
+Existe un amplio espectro de oportunidades dentro de EdTech relacionadas al IoT y Blockchain que puede valer la pena explorar para Age of Learning. Sin embargo, es importante contraponer el esfuerzo y los costos de desplegar tencologías que en efecto transforman fundamentalmente los procesos de nogocio de la empresa - transformaciones como llevar sus productos al plano físico que puede entrar en conflicto con la agilidad que ofrece una plataforma ciento por ciento digital.
+Recordemos que ultimadamente el aprendizaje es exponer a una persona a un entorno donde la obtención de nuevos conocimientos es posible, sea que ocurra de persona a persona, accediendo a un libro, o accediendo a un entorno físico donde se pueda interactuar con el medio. Por lo tanto siempre habrá nichos en los que la integración de tecnologías como IoT y Blockchain puede ser una ventaja competitiva aplicada de manera adecuada. \cite{kulkarni2025edtech}
+
+\begin{thebibliography}{00}
+
+\bibitem{ageOfLearningWeb}
+Age of Learning, Inc., ``Age of Learning: Leading the Way in Learning Outcomes,'' sitio corporativo. [En línea]. Disponible: \url{https://www.ageoflearning.com/}
+
+\bibitem{sanchezRamoscelli2018iot}
+M. A. Sánchez y G. Ramoscelli, ``Creación de valor a partir del Internet de las Cosas: estudio exploratorio en la provincia de Buenos Aires,'' \emph{Visión de Futuro}, vol.~22, no.~1, 2018.
+
+\bibitem{hoe2022digital}
+S. L. Hoe, \emph{Digital Transformation; Strategy, Execution, and Technology}, 2022.
+
+\bibitem{rogers2016valueProp}
+D. L. Rogers, ``Adapt Your Value Proposition,'' cap.~6 en \emph{The Digital Transformation Playbook: Rethink Your Business for the Digital Age}. Nueva York, NY, USA: Columbia Business School Publishing, 2016.
+
+\bibitem{kulkarni2025edtech}
+G. Kulkarni \emph{et al.}, ``Enhancing Student Engagement through Digital Transformation in EdTech: The Moderating Role of Teacher Support,'' \emph{J. Marketing Social Res.}, vol.~2, no.~2, pp.~1--15, Mar.-Apr. 2025. [En línea]. Disponible: \url{https://jmsr-online.com/}
+
+\bibitem{teloexplico2021blockchain}
+S. Dominis (dir.), ``Qué es una blockchain y cómo funciona,'' \emph{Teloexplicovideo}, YouTube, 1 jun. 2021. [En línea]. Disponible: \url{https://www.youtube.com/watch?v=8rUGRdOi3XM}
+
+\bibitem{itainnova2020iotBlockchain}
+ITA. Instituto Tecnológico de Aragón, ``¿Qué es IoT (Internet de las Cosas) y Blockchain?,'' YouTube, 26 jun. 2020. [En línea]. Disponible: \url{https://www.youtube.com/watch?v=UKL1q82GsVM}
+
+\bibitem{dwEspanol2022blockchainLatam}
+J. S. Gómez (present.), ``Usos poco conocidos del Blockchain en Latinoamérica,'' \emph{DW Español}, YouTube, 21 may. 2022. [En línea]. Disponible: \url{https://www.youtube.com/watch?v=9wbnhwR0bR0}
+
+\end{thebibliography}
+
+\end{document}
